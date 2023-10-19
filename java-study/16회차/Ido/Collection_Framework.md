@@ -6,12 +6,6 @@
 - List, Set은 객체를 추가, 삭제, 검색하는 방법에 많은 공통점이 있기 때문에 이 인터페이스들의 공통된 메소드들만 모아 Collection 인터페이스로 정의해 두고 있음
 - Map은 키와 값을 하나의 쌍으로 묶어서 관리하는 구조로 되어 있어, List, Set과는 사용 방법이 다름
 
-|인터페이스 분류|특징|구현 클래스|
-|---|---|---|
-|List|- 순서를 유지하고 저장<br>- 중복 저장 가능|ArrayList, Vector,<br>LinkedList|
-|Set|- 순서를 유지하지 않고 저장<br>- 중복 저장 안됨|HashSet, TreeSet|
-|Map|- 키와 값의 쌍으로 저장<br>- 키는 중복 저장 안됨|HashMap, Hashtable,<br>TreeMap, Properties|
-
 <br>
 
 ## List 컬렉션
